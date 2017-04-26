@@ -1,0 +1,28 @@
+{
+  "name": "disa-lab",
+  "version": "1.0.0",
+  "description": "Lab 07 Javascript 401-15\u001b[D\u001b[C",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u001b[2~https://github.com/justdisa"
+  },
+  "keywords": [
+    "cowsay"
+  ],
+  "author": "justdisa",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "cowsay": "^1.1.9",
+    "eslint": "^3.19.0",
+    "mocha": "^3.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  }
+}
