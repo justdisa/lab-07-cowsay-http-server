@@ -22,8 +22,8 @@ describe('Server module', function() {
         .send({})
         .end((err,res) => {
           expect(res.status).to.equal(400);
+          done();
         });
-        done();
       });
     });
     describe('/cowsay endpoint', function() {
@@ -36,7 +36,6 @@ describe('Server module', function() {
   describe('GET method', function() {
     describe('/ endpoint', function() {
       it ('should respond with a 400 on bad request', done => {
-
         done();
       });
     });
